@@ -1,14 +1,13 @@
-import React from 'react';
-import './style.css';
+import {
+  Footer,
+} from './pages';
 
-import { Example } from './components';
-
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      <Example />
-    </div>
-)
-  }
+    <>
+      <Footer />
+    </>
+  );
+}
 
 export default App;
