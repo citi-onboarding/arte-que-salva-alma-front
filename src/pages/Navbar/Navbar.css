@@ -49,7 +49,7 @@
     padding: 8px 32px;
 }
 
-.op:hover{
+/* .op:hover{
     display: flex;
     list-style: none;
     align-items: center;
@@ -57,7 +57,7 @@
     color: #3586c6;
     border-bottom: 3px solid #3586c6;
     transition: all 0s ease 0.2s;
-}
+} */
 
 .button_Nav li.active a{
     display: flex;
@@ -92,4 +92,19 @@
 div{
     width: 200px;
     background-color: #f6f6f6;
+}
+
+a, li{
+    cursor: pointer;
+}
+
+.teste{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 57px;
+    color: #3586c6;
+    border-bottom: 3px solid #3586c6;
+    transition: all 0s ease 0.2s;
+    cursor: pointer;
 }
