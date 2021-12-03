@@ -1,12 +1,12 @@
 import React from 'react';
-import './style.css';
 
-import { Example } from './components';
+import { Navbar } from './pages';
+import { Logo } from './assets/index';
 
 const App = () => {
   return (
     <div className="App">
-      <Example />
+      <Navbar />
     </div>
 )
   }
