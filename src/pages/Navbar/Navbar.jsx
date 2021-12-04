@@ -5,14 +5,13 @@ import { Logo } from '../../assets';
 import './Navbar.css';
 
 function Navbar() {
-    const navRef = useRef(null);
     
-    const [active, setActive] = useState();
+    const [active, setActive] = useState(1);
 
-    const onToggleClick = (e) => {
-        navRef.current.classList.toggle("teste");
-      };
-
+    const toggleTab = (index) =>{
+        setActive(index);
+    }
+    
 return (
 
     <nav className = "navbarArte"> 
@@ -20,17 +19,17 @@ return (
             <img className = "Logo" src={Logo} alt="logo arte-que-salva-alma"  />
         </div>
         <ul className = "options">
-            <li className="active-tabs" ref={navRef} onClick={onToggleClick} >
-                <a className ="op">Início</a>
+            <li className ={active === 1? "barrinha" :""} onClick = {()=>toggleTab(1)}>
+                <a href="#Início" className ="op">Início</a>
             </li>
-            <li className={`${active ? "teste" : ""}`} onClick={() => setActive(!active)}>
-                <a className ="op">Projeto</a>
+            <li className ={active === 2? "barrinha":""} onClick = {()=>toggleTab(2)}>
+                <a href="#Projeto" className ="op">Projeto</a>
             </li>
-            <li className="">
-                <a className ="op">Idelizadora</a>
+            <li className ={active === 3? "barrinha":""} onClick = {()=>toggleTab(3)}>
+                <a href="#Idealizadora" className ="op">Idelizadora</a>
             </li>
-            <li>
-                <a className ="op">Conteúdos</a>
+            <li className ={active === 4? "barrinha":""} onClick = {()=>toggleTab(4)}>
+                <a href="#Conteúdos" className ="op">Conteúdos</a>
             </li>
             <li>
                 <a ><button className = "button_Nav">venha colaborar</button></a>

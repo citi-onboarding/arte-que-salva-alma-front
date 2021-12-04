@@ -30,6 +30,32 @@
     text-decoration: none;
 }
 
+.barrinha{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 55px;
+    color: #3586c6;
+    border-bottom: 3px solid #3586c6;
+    transition: all 0s ease 0.2s;
+    cursor: pointer;
+}
+
+.options a{
+    display: inline-block;
+    padding: 8px 32px;
+}
+
+.op:hover{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 39px;
+    color: #3586c6;
+    transition: all 0s ease 0.2s;
+    cursor: pointer;
+}
+
 .navbarArte button{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
@@ -44,26 +70,11 @@
     padding: 2px 200px;
 }
 
-.options a{
-    display: inline-block;
-    padding: 8px 32px;
-}
-
-/* .op:hover{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    height: 39px;
-    color: #3586c6;
-    border-bottom: 3px solid #3586c6;
-    transition: all 0s ease 0.2s;
-} */
-
 .button_Nav li.active a{
     display: flex;
     list-style: none;
     align-items: center;
-    height: 39px;
+    height: 60px;
     color: #999999;
     border-bottom: 3px solid #3586c6;
     transition: all 0s ease 0.2s;
@@ -92,19 +103,4 @@
 div{
     width: 200px;
     background-color: #f6f6f6;
-}
-
-a, li{
-    cursor: pointer;
-}
-
-.teste{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    height: 57px;
-    color: #3586c6;
-    border-bottom: 3px solid #3586c6;
-    transition: all 0s ease 0.2s;
-    cursor: pointer;
 }
