@@ -1,0 +1,47 @@
+div{
+    height: fit-content;
+    width: fit-content;
+}
+
+.container{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background: #3586C6;
+    transform: skew(0deg, -3deg) translateY(50px);
+}
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column !important;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.inner-container{
+    margin: 0 50px;
+    color: white;
+    transform: skew(0deg, 3deg);
+}
+
+h1{
+    color: white;
+}
+
+.left-align > :is(h1,p){
+    align-self: flex-start;
+    text-align: left;
+}
+.right-align > :is(h1,p){
+    align-self: flex-end;
+    text-align: right;
+}
+

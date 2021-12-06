@@ -1,14 +1,14 @@
 import React from 'react';
 import './style.css';
 
-import { Example } from './components';
+import { ProjectInfo } from './pages';
 
 const App = () => {
   return (
     <div className="App">
-      <Example />
+      <ProjectInfo/>
     </div>
-)
+  );
   }
 
 export default App;
