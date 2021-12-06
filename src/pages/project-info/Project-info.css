@@ -1,6 +1,14 @@
-div{
+*{
+    margin: 0;
+}
+
+.container div{
     height: fit-content;
-    width: fit-content;
+    margin: 0;
+}
+
+.container img{
+    width: 25%;
 }
 
 .container{
@@ -12,28 +20,30 @@ div{
     align-items: center;
     padding: 150px;
     background: #3586C6;
-    transform: skew(0deg, -3deg) translateY(50px);
+    transform: skew(0deg, -3deg) translateY(150px);
 }
-.text{
+.text, .image{
     width: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column !important;
 }
 
 .inner-container{
     display: flex;
     flex-direction: row;
-}
-
-
-.inner-container{
     margin: 0 50px;
+    padding: 50px 0;
     color: white;
     transform: skew(0deg, 3deg);
 }
 
-h1{
+.container h1{
     color: white;
+}
+.title{
+    margin-bottom: 30px;
 }
 
 .left-align > :is(h1,p){
