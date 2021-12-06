@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #040507;
+    background-color: #f5f5f5;
+  }
+  
+.secaoInformacoes{
+  display: flex;
+  justify-content:space-around;
+  position:static;
+  background-color: #f5f5f5;
+  padding: 14px 32px;
+}
+
+.colabore_fora{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 12px 32px;
+}
+
+.colabore_dentro{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  padding: 80px 32px; 
+  
+  font-size: 15px;
+}
+
+.img1{
+  display: flex;
+  width: 250px;
+  height: 300px;
+  
+  padding: 64px 10px;
+}
+.img2{
+  display: flex;
+  width: 250px;
+  height: 300px;
+
+  padding: 64px 10px;
+}
+
+.textao{
+  font-size: 17px;
+  color: #040507;
+  text-decoration: none;
+  width: 390px;
+  line-height: 20px;
+}
+
+.contato{
+  float: left;
+  display: block;
+  line-height: 14px;
+}
+
+.Pix{
+  display: flex;
+  justify-content:space-around;
+  font-size: 17px;
+  color: #D01F58;
+}
+
+.telefone{
+  display: flex;
+  justify-content:space-around;
+  position:relative;
+}
+
+.telefone::after{
+  content:'';
+  position:absolute;
+  left:0; 
+  right:0;
+  top: 63%;
+  margin:10px auto;
+  width: 34%;
+  height:1px;
+  background:#D01F58;
+}
+
+.div-vazia{
+  width: 190px;
+}
+
+.NameDoacao{
+  font-size: 29px;
+}
+
+@media (max-width:1200px){
+  .div-vazia{
+    width: 80px;
+  }
+
+  .NameDoacao{
+  font-size: 20px;
+  }
+
+  .textao{
+    font-size: 13px;
+    color: #040507;
+    text-decoration: none;
+    width: 330px;
+    line-height: 20px;
+  }
+  
+  .contato{
+    float: left;
+    display: block;
+    line-height: 12px;
+  }
+  
+  .Pix{
+    display: flex;
+    justify-content:space-around;
+    font-size: 15px;
+    color: #D01F58;
+  }
+
+  .nome{
+    font-size: 11px;
+  }
+
+  .colabore_fora{
+    padding: 15px 164px;
+    height: 20px;
+    width: 40px;
+  }
+
+  .colabore_dentro{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 80px 0px; 
+  }
+
+  .img1{
+    width: 160px;
+    height: 200px;
+    
+    padding: 164px 10px;
+  }
+  .img2{
+    width: 160px;
+    height: 200px;
+  
+    padding: 164px 10px;
+  }
+  .contato{
+    width: 150px;
+  }
+}
