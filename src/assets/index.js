@@ -1,6 +1,11 @@
 import Logo from './Logo.jpeg';
-import Capa from './Capa.png';
+import ImagemBanner from './ImagemBanner.jpg';
+import imagem from './imagem.png';
+
 
 export {
-  Logo, Capa,
+  Logo, 
+  ImagemBanner,
+  imagem,
 };
+

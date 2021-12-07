@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
 
-body, html {
+.secaoInformacoes body, html {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
@@ -16,67 +16,67 @@ body, html {
   padding: 14px 32px;
 }
 
-.colabore_fora{
+.secaoInformacoes .colabore_fora{
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
 
-  padding: 12px 32px;
+  padding: 15px 32px;
 }
 
-.colabore_dentro{
+.secaoInformacoes .colabore_dentro{
   display: flex;
   justify-content: space-between;
   align-items:flex-end;
-  padding: 80px 32px; 
+  padding: 100px 32px; 
   
   font-size: 15px;
 }
 
-.img1{
+.secaoInformacoes .img1{
   display: flex;
   width: 250px;
   height: 300px;
   
-  padding: 64px 10px;
+  padding: 50px 10px;
 }
-.img2{
+.secaoInformacoes .img2{
   display: flex;
   width: 250px;
   height: 300px;
 
-  padding: 64px 10px;
+  padding: 50px 10px;
 }
 
-.textao{
+.secaoInformacoes .textao{
   font-size: 17px;
   color: #040507;
   text-decoration: none;
   width: 390px;
-  line-height: 20px;
+  line-height: 26px;
 }
 
-.contato{
+.secaoInformacoes .contato{
   float: left;
   display: block;
-  line-height: 14px;
+  line-height: 25px;
 }
 
-.Pix{
+.secaoInformacoes .Pix{
   display: flex;
   justify-content:space-around;
   font-size: 17px;
   color: #D01F58;
 }
 
-.telefone{
+.secaoInformacoes .telefone{
   display: flex;
   justify-content:space-around;
   position:relative;
 }
 
-.telefone::after{
+.secaoInformacoes .telefone::after{
   content:'';
   position:absolute;
   left:0; 
@@ -88,24 +88,24 @@ body, html {
   background:#D01F58;
 }
 
-.div-vazia{
+.secaoInformacoes .div-vazia{
   width: 190px;
 }
 
-.NameDoacao{
+.secaoInformacoes .NameDoacao{
   font-size: 29px;
 }
 
 @media (max-width:1200px){
-  .div-vazia{
+  .secaoInformacoes .div-vazia{
     width: 80px;
   }
 
-  .NameDoacao{
-  font-size: 20px;
+  .secaoInformacoes .NameDoacao{
+    font-size: 20px;
   }
 
-  .textao{
+  .secaoInformacoes .textao{
     font-size: 13px;
     color: #040507;
     text-decoration: none;
@@ -113,49 +113,48 @@ body, html {
     line-height: 20px;
   }
   
-  .contato{
+  .secaoInformacoes .contato{
     float: left;
     display: block;
-    line-height: 12px;
+    line-height: 20px;
   }
   
-  .Pix{
+  .secaoInformacoes .Pix{
     display: flex;
     justify-content:space-around;
     font-size: 15px;
     color: #D01F58;
   }
 
-  .nome{
+  .secaoInformacoes .nome{
     font-size: 11px;
   }
 
-  .colabore_fora{
-    padding: 15px 164px;
-    height: 20px;
+  .secaoInformacoes .colabore_fora{
+    padding: 150px 164px;
     width: 40px;
   }
 
-  .colabore_dentro{
+  .secaoInformacoes .colabore_dentro{
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
     padding: 80px 0px; 
   }
 
-  .img1{
+  .secaoInformacoes .img1{
     width: 160px;
     height: 200px;
     
     padding: 164px 10px;
   }
-  .img2{
+  .secaoInformacoes .img2{
     width: 160px;
     height: 200px;
   
     padding: 164px 10px;
   }
-  .contato{
+  .secaoInformacoes .contato{
     width: 150px;
   }
 }
