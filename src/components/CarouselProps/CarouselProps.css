@@ -3,17 +3,17 @@
 .item{
   background-color: #f5f5f5;
   margin: 20px;
-  width: 290px;
+  width: 300px;
+  line-height: 0px;
 }
 
-.image{
+.item .image{
   display: flex;
   justify-content:space-around;
-  position:relative;
   cursor: pointer;
 }
 
-.image:hover{
+.item .image:hover{
   box-shadow: 8px -8px 0px #3586C6;
 }
 
@@ -23,23 +23,20 @@
   justify-content: space-between;
 }
 
-.nomedovídeo{
+.item .nomedovídeo{
   font-size: 20px;
   text-decoration: none;
   color: #040507;
   cursor: pointer;
 }
 
-.descricaodovideo{
+.item .descricaodovideo{
   font-size: 13px;
   
   text-decoration: none;
   color: #040507;
 }
 
-.item{
-  line-height: 10px;
-}
-.info{
+.item .info{
   line-height: 17px;
 }
