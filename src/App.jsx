@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Navbar } from './pages';
+import { Carousel } from './pages';
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
+      <Carousel />
     </div>
 )
   }
