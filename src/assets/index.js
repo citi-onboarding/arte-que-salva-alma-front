@@ -1,5 +1,10 @@
+import ImagemBanner from './ImagemBanner.jpg';
+import imagem from './imagem.png';
+
 import Logo from './Logo.jpeg';
 
 export {
-  Logo,
+  ImagemBanner,
+  imagem,
 };
+
