@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+.secaoInformacoes body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #040507;
+    background-color: #f5f5f5;
+  }
+  
+.secaoInformacoes{
+  display: flex;
+  justify-content:space-around;
+  position:static;
+  background-color: #f5f5f5;
+  padding: 14px 32px;
+}
+
+.secaoInformacoes .colabore_fora{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 15px 32px;
+}
+
+.secaoInformacoes .colabore_dentro{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  padding: 100px 32px; 
+  
+  font-size: 15px;
+}
+
+.secaoInformacoes .img1{
+  display: flex;
+  width: 250px;
+  height: 300px;
+  
+  padding: 50px 10px;
+}
+.secaoInformacoes .img2{
+  display: flex;
+  width: 250px;
+  height: 300px;
+
+  padding: 50px 10px;
+}
+
+.secaoInformacoes .textao{
+  font-size: 17px;
+  color: #040507;
+  text-decoration: none;
+  width: 390px;
+  line-height: 26px;
+}
+
+.secaoInformacoes .contato{
+  float: left;
+  display: block;
+  line-height: 25px;
+}
+
+.secaoInformacoes .Pix{
+  display: flex;
+  justify-content:space-around;
+  font-size: 17px;
+  color: #D01F58;
+}
+
+.secaoInformacoes .telefone{
+  display: flex;
+  justify-content:space-around;
+  position:relative;
+}
+
+.secaoInformacoes .telefone::after{
+  content:'';
+  position:absolute;
+  left:0; 
+  right:0;
+  top: 63%;
+  margin:10px auto;
+  width: 34%;
+  height:1px;
+  background:#D01F58;
+}
+
+.secaoInformacoes .div-vazia{
+  width: 190px;
+}
+
+.secaoInformacoes .NameDoacao{
+  font-size: 29px;
+}
+
+@media (max-width:1200px){
+  .secaoInformacoes .div-vazia{
+    width: 80px;
+  }
+
+  .secaoInformacoes .NameDoacao{
+    font-size: 20px;
+  }
+
+  .secaoInformacoes .textao{
+    font-size: 13px;
+    color: #040507;
+    text-decoration: none;
+    width: 330px;
+    line-height: 20px;
+  }
+  
+  .secaoInformacoes .contato{
+    float: left;
+    display: block;
+    line-height: 20px;
+  }
+  
+  .secaoInformacoes .Pix{
+    display: flex;
+    justify-content:space-around;
+    font-size: 15px;
+    color: #D01F58;
+  }
+
+  .secaoInformacoes .nome{
+    font-size: 11px;
+  }
+
+  .secaoInformacoes .colabore_fora{
+    padding: 150px 164px;
+    width: 40px;
+  }
+
+  .secaoInformacoes .colabore_dentro{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 80px 0px; 
+  }
+
+  .secaoInformacoes .img1{
+    width: 160px;
+    height: 200px;
+    
+    padding: 164px 10px;
+  }
+  .secaoInformacoes .img2{
+    width: 160px;
+    height: 200px;
+  
+    padding: 164px 10px;
+  }
+  .secaoInformacoes .contato{
+    width: 150px;
+  }
+}

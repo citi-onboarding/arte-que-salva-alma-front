@@ -16,7 +16,7 @@
     max-width: 100ev;
 }
 
-.options{
+.navbarArte .options{
     display: flex;
     list-style: none;
     align-items: center;
@@ -30,7 +30,7 @@
     text-decoration: none;
 }
 
-.barrinha{
+.navbarArte .barrinha{
     display: flex;
     list-style: none;
     align-items: center;
@@ -41,12 +41,12 @@
     cursor: pointer;
 }
 
-.options a{
+.navbarArte .options a{
     display: inline-block;
     padding: 8px 32px;
 }
 
-.op:hover{
+.navbarArte .op:hover{
     display: flex;
     list-style: none;
     align-items: center;
@@ -64,13 +64,13 @@
     text-decoration: none;
 }
 
-.Logo{
+.navbarArte .Logo{
     margin-right: auto;
     width: 50px;
     padding: 2px 200px;
 }
 
-.button_Nav li.active a{
+.navbarArte .button_Nav li.active a{
     display: flex;
     list-style: none;
     align-items: center;
@@ -80,7 +80,7 @@
     transition: all 0s ease 0.2s;
 }
 
-.button_Nav{
+.navbarArte .button_Nav{
     padding: 10px 11px;
     border-style:none;
     border-bottom-right-radius: 8px;
@@ -94,13 +94,13 @@
 }
 
 
-.button_Nav:active{
+.navbarArte .button_Nav:active{
     box-shadow: 0 0 0 0 #999999, inset 1px 1px 1px #999999;
     transform: translate(1px, 1px);
 }
 
 
-div{
+.navbarArte div{
     width: 200px;
     background-color: #f6f6f6;
 }
