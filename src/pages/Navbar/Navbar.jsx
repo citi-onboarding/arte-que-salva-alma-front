@@ -1,5 +1,4 @@
- import { useState, useEffect, useRef, Component } from 'react';
-// import axios from 'axios';
+import { useState} from 'react';
 
 import { Logo } from '../../assets';
 import './Navbar.css';
