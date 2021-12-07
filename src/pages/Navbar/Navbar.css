@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbarArte{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    min-width: 100%;
+    max-width: 100ev;
+}
+
+.options{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbarArte a{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #040507;
+    text-decoration: none;
+}
+
+.barrinha{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 55px;
+    color: #3586c6;
+    border-bottom: 3px solid #3586c6;
+    transition: all 0s ease 0.2s;
+    cursor: pointer;
+}
+
+.options a{
+    display: inline-block;
+    padding: 8px 32px;
+}
+
+.op:hover{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 39px;
+    color: #3586c6;
+    transition: all 0s ease 0.2s;
+    cursor: pointer;
+}
+
+.navbarArte button{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.Logo{
+    margin-right: auto;
+    width: 50px;
+    padding: 2px 200px;
+}
+
+.button_Nav li.active a{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    color: #999999;
+    border-bottom: 3px solid #3586c6;
+    transition: all 0s ease 0.2s;
+}
+
+.button_Nav{
+    padding: 10px 11px;
+    border-style:none;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #3586c6;
+    
+    box-shadow: 3px 3px 3px #CCCCCC;
+}
+
+
+.button_Nav:active{
+    box-shadow: 0 0 0 0 #999999, inset 1px 1px 1px #999999;
+    transform: translate(1px, 1px);
+}
+
+
+div{
+    width: 200px;
+    background-color: #f6f6f6;
+}
