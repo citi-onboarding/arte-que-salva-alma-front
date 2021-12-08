@@ -3,44 +3,43 @@
     flex-direction: row;
 }
 
-.banner .banner-text{
+.banner-text{
     width:100%;
     align-items: center;
     justify-content: center;
-    margin: 260px 0 0 100px;
 }
 
-.banner .banner-text h1{
-    color: #040507;
-    width: 530px;
-    font-size: 38px;
+.banner-text h1{
+    color: #000000;
+    width: 650px;
+    font-size: 3rem;
     margin-bottom: 0;
     text-align: left;
 }
-
-.banner .banner-text p{
-    width: 600px;
-    font-size: 20px;
+.banner-text p{
+    width: 650px;
+    font-size: 1.5rem;
     margin-bottom: 0;
     text-align: justify;
 }
 
-.banner .banner-image{
+.banner-image{
     display: flex;
     align-items: flex-end;
     overflow-x: hidden;
 }
 
-.banner .banner-image img{
-    min-width: 800px;
+.banner-image img{
+    min-width: 900px;
     margin-left: 222px;
-    position: left;
+    position: absolute;
+
 } 
-.banner body{
+body{
     overflow-x: hidden;
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1500px){
 
     .text-container{
         width:100%;
@@ -51,5 +50,3 @@
    
 }
     
-
-

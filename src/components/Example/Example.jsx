@@ -8,12 +8,14 @@ function PostList() {
 
   const loadPosts = async () => {
     const res = await axios.get('http://localhost:1337/posts');
-    setPosts(resdata);
+    setPosts(res.data);
   };
 
   useEffect(() => {
     loadPosts();
   }, []);
+
+  console.log('bora', posts);
 
   return (
     <div className="post-list">

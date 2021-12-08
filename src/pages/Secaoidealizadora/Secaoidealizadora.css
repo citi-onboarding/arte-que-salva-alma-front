@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
 
 body,html {
   margin: 0;
@@ -7,10 +7,9 @@ body,html {
 
 .Secaoidealizadora{
     position: flex center;
-    padding: 3926px 0 0 0;
+    padding: 10px 0 0 0;
     width: 100%;
     height: 490px;
-    background: #F1F1F1;
     top: -184px;
     text-align: center;
 }
@@ -56,13 +55,23 @@ body,html {
 }
     
 .Idealizadora_LineStart{
-            position: absolute;
-            top: 0px;
-            z-index: -5;
+        display: flex;
+        align-items: flex-start;
+        min-width: 455px;
+        min-height: 185px;
+        margin-top: -300px;
+        position: right;
+       text-align: right;
 }
 
 .Idealizadora_LineFinish{
-        position: absolute;
-	    top: 0px;
-        z-index: -5;
-}
+        position: relative;
+        left: 110%;
+
+        display: flex;
+        align-items: flex-end;
+        min-width: 455px;
+        min-height: 185px;
+        margin-top: -300px;
+        margin-left: -100px;
+} */
