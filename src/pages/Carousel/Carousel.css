@@ -18,11 +18,11 @@
 }
 
 .container{
-  max-width: 90vw;
+  max-width: 100vw;
 }
 
 .container .carousel{
-  width: 1449px;
+  width: 100%;
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;

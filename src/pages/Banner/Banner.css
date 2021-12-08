@@ -4,10 +4,9 @@
 }
 
 .banner .banner-text{
-    width:100%;
     align-items: center;
     justify-content: center;
-    margin: 260px 0 0 100px;
+    margin: 0px 0 0 100px;
 }
 
 .banner .banner-text h1{
@@ -27,6 +26,9 @@
 
 .banner .banner-image{
     display: flex;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
     align-items: flex-end;
     overflow-x: hidden;
 }
@@ -38,6 +40,13 @@
 } 
 .banner body{
     overflow-x: hidden;
+}
+
+.banner .text-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media(max-width: 1200px){

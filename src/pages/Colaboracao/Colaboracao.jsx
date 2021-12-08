@@ -6,8 +6,8 @@ import './Colaboracao.css';
 function Colaboracao() {
     const [collaboration, setCollaboration] = useState([]);
 
-    useEffect(async() => {
-        await axios.get('http://localhost:1337/collaboration')
+    useEffect(() => {
+        axios.get('http://localhost:1337/collaboration')
             .then(res =>{
                 setCollaboration(res.data);
                 console.log(res.data);
