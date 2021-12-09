@@ -5,8 +5,10 @@ const Image = (props) => {
 
 
     return (
-
-        <img src={props.src} alt=""/>
+        <div className="container-imagem">
+            <img src={props.src} alt=""/>
+        </div>
+      
 
     );
 

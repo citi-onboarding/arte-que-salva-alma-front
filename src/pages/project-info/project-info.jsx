@@ -25,21 +25,21 @@ const ProjectInfo = (props) => {
             {loading ? (
                 <div>Loading...</div>
             ) : (
-                <div className="container">
-                    <div className="inner-container">
+                <div className="container-info-section">
+                    <div className="inner-container float-left-class">
                         <div className="text left-align">
                             <Title title={project[0].title}/>
                             <Description description={project[0].description} />
                         </div>
                         <div className="image">
                             {/* Imagem colocada como placeholder */}
-                            <Image src={project[0].image.url}/>
+                            {/* <Image src={project[0].image.url}/> */}
                         </div>
                     </div>
-                    <div className="inner-container">
+                    <div className="inner-container float-right-class">
                         <div className="image">
                             {/* Imagem colocada como placeholder */}
-                            <Image src={project[1].image.url}/>
+                            {/* <Image src={project[1].image.url}/> */}
                         </div>
                         <div className="text right-align">
                             <Title title={project[1].title}/>
