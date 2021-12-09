@@ -4,10 +4,9 @@
 }
 
 .banner .banner-text{
-    width:100%;
     align-items: center;
     justify-content: center;
-    margin: 260px 0 0 100px;
+    margin: 0px 0 0 100px;
 }
 
 .banner .banner-text h1{
@@ -27,17 +26,28 @@
 
 .banner .banner-image{
     display: flex;
+    width: 50%;
     align-items: flex-end;
-    overflow-x: hidden;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
 }
 
 .banner .banner-image img{
     min-width: 800px;
     margin-left: 222px;
     position: left;
+    transform: translate(229px,25px);
 } 
 .banner body{
     overflow-x: hidden;
+}
+
+.banner .text-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media(max-width: 1200px){

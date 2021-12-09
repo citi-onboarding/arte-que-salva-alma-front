@@ -25,7 +25,6 @@ const Secaoidealizadora = (props) => {
                 </div>
             </div>
 
-            <div className="Detalhes_idea">
                 <div className="Idealizadora_LineStart">
                     <img src={ LineStart }></img>
                 </div>
@@ -33,7 +32,6 @@ const Secaoidealizadora = (props) => {
                 <div className="Idealizadora_LineFinish">
                     <img src={ LineFinish }></img>
                 </div>
-            </div>
         </div>
     );
 }
