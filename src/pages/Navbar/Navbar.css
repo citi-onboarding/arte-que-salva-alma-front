@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
 
-*{
+.navbarArte *{
     margin: 0;
     padding: 0;
 }
@@ -89,7 +89,6 @@
     cursor: pointer;
     text-decoration: none;
     background-color: #3586c6;
-    
     box-shadow: 3px 3px 3px #CCCCCC;
 }
 

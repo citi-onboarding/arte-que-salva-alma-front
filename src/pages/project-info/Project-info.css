@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+.container-info-section div{
+    height: fit-content;
+    margin: 0;
+}
+
+.container-info-section img{
+    width: 25%;
+}
+
+.container-info-section{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background: #3586C6;
+    transform: skew(0deg, -3deg) translateY(-76px);
+}
+.container-info-section .text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+}
+
+.container-info-section .inner-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+    padding: 50px 0;
+    color: white;
+    transform: skew(0deg, 3deg);
+}
+
+.container-info-section .container h1{
+    color: white;
+}
+.container-info-section .title{
+    margin-bottom: 30px;
+}
+
+.container-info-section .left-align > :is(h1,p){
+    align-self: flex-start;
+    text-align: left;
+}
+.container-info-section .right-align > :is(h1,p){
+    align-self: flex-end;
+    text-align: right;
+}
+
+.container-info-section p{
+    width:700px;
+}
+
+.float-right-class{
+    align-self: flex-end;
+}
+.float-left-class{
+    align-self: flex-start;
+}
+
