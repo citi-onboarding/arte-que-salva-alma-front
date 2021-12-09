@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
+body,html {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    padding: 0px 0 0 0;
+    width: 100%;
+    height: 235px;
+}
+.logofooter img{
+  width: 110px;
+  height: 110px;
+  left: 120px;
+  bottom: 49px;
+}
+.logofooter, .CitiBox{
+  margin: 0 120px;
+}
+
+.CitiBox{
+      width: 244.4px;
+      height: 80px;
+      right: 119.9px;
+      bottom: 49px;
+}
+.instagram{
+    width: 25px;
+    height: 25px;
+    right: 206px;
+    bottom: 109px;
+}
+.youtube{
+    width: 28px;
+    height: 21px;
+    right: 163px;
+    bottom: 111px;
+}
+.google{
+    width: 25px;
+    height: 25px;
+    right: 123px;
+    bottom: 109px;
+}
+.p{
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.mensagem{
+  right: 164.3px;
+  bottom: 40px;
+}
+.citizinho{
+  width: 36.4px;
+  height: 19.5px;
+  right: 125px;
+  bottom: 61px;
+}
+.SocialMedia{
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.copyright{
+  text-align: end;
+  margin: 27px 0 0 0;
+}
