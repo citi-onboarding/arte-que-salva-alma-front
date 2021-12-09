@@ -17,7 +17,7 @@ function Carrossel() {
   }, []);
   
     return (
-    <div className = "container">
+    <div className = "container" >
         <div className = "nome_conteudo">
             <h1>CONTEÚDOS</h1>
         </div>

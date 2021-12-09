@@ -30,13 +30,14 @@
     align-items: flex-end;
     justify-content: flex-end;
     align-items: flex-end;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .banner .banner-image img{
     min-width: 800px;
     margin-left: 222px;
     position: left;
+    transform: translate(229px,25px);
 } 
 .banner body{
     overflow-x: hidden;

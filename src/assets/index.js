@@ -7,6 +7,12 @@ import Youtube from './Youtube.png';
 import Google from './Google.png';
 import Vetor from './Vetor.png';
 import Coracao from './Coracao.png';
+import Idealizadora from './Idealizadora.png';
+import LineFinish from './LineFinish.png';
+import LineStart from './LineStart.png';
+
+
+
 
 export {
   Logo,
@@ -17,7 +23,10 @@ export {
   Vetor,
   Coracao,
   ImagemBanner,
-  imagem
+  imagem,
+  Idealizadora,
+  LineFinish,
+  LineStart
 };
 
 

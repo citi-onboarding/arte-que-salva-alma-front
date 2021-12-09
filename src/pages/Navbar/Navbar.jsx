@@ -22,7 +22,7 @@ return (
                 <a href="#Início" className ="op">Início</a>
             </li>
             <li className ={active === 2? "barrinha":""} onClick = {()=>toggleTab(2)}>
-                <a href="#Projeto" className ="op">Projeto</a>
+                <a href="#projeto" className ="op">Projeto</a>
             </li>
             <li className ={active === 3? "barrinha":""} onClick = {()=>toggleTab(3)}>
                 <a href="#Idealizadora" className ="op">Idelizadora</a>

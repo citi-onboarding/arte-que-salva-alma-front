@@ -20,7 +20,7 @@
     align-items: center;
     padding: 150px;
     background: #3586C6;
-    transform: skew(0deg, -3deg) translateY(-76px);
+    transform: skew(0deg, -3deg) translateY(-50px);
 }
 .container-info-section .text{
     width: 100%;
