@@ -7,8 +7,9 @@
     margin: 0;
 }
 
-.container-info-section img{
-    width: 25%;
+.colabore_dentro {
+    display: flex;
+    gap: 170px;
 }
 
 .container-info-section{
@@ -37,6 +38,7 @@
     padding: 50px 0;
     color: white;
     transform: skew(0deg, 3deg);
+    justify-content: space;
 }
 
 .container-info-section .container h1{
@@ -66,3 +68,24 @@
     align-self: flex-start;
 }
 
+.inner-container.float-left-class {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-container.float-right-class {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-image > img {
+    width: 170px;
+}
+
+@media(max-width: 1500px) {
+    .container-info-section img {
+        width: 80%;
+    }
+}

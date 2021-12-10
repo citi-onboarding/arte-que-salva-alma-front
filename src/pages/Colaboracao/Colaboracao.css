@@ -158,3 +158,63 @@
     width: 150px;
   }
 }
+
+.collaboration-right {
+  margin-right: 80px;
+  margin-top: 80px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.image-right {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.collaboration-left {
+  margin-top: 80px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.image-left {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media(max-width: 1400px) {
+
+  .colabore_dentro {
+      gap: 0px;
+      margin-left: 50px;
+  }
+
+  .collaboration-right {
+      margin-top: 100px;
+      width: 100px;
+      height: 100px;
+  }
+
+  .image-right {
+      width: 200px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+  
+  .collaboration-left {
+      margin-top: 100px;
+      width: 100px;
+      height: 100px;
+  }
+
+  .image-left {
+      width: 200px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+
+}

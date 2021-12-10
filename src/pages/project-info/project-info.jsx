@@ -6,7 +6,7 @@ import './Project-info.css';
 const ProjectInfo = (props) => {
 
 
-    const [project, setProject] = useState({});
+    const [project, setProject] = useState([]);
 
     console.log('aqui', project);
 
@@ -29,13 +29,13 @@ const ProjectInfo = (props) => {
                     </div>
                     <div className="image">
                         {/* Imagem colocada como placeholder */}
-                        {/* <Image src={project[0].image.url}/> */}
+                        <img src={project[0]?.image.url}/>
                     </div>
                 </div>
                 <div className="inner-container float-right-class">
                     <div className="image">
                         {/* Imagem colocada como placeholder */}
-                        {/* <Image src={project[1].image.url}/> */}
+                        <img src={project[1]?.image.url} className="bottom-image" />
                     </div>
                     <div className="text right-align">
                         <Title title={project[1]?.title} />
