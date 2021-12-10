@@ -8,6 +8,8 @@ import { Navbar } from './pages';
 import { Secaoidealizadora } from './pages';
 import { Footer } from './pages';
 
+export const mainUrl = 'https://arte-que-salva-alma.herokuapp.com';
+
 const App = () => {
   return (
     <div className="App">

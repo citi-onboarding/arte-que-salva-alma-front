@@ -7,7 +7,7 @@ function Colaboracao() {
     const [collaboration, setCollaboration] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:1337/collaboration')
+        axios.get('https://arte-que-salva-alma.herokuapp.com/collaboration')
             .then(res =>{
                 setCollaboration(res.data);
                 console.log(res.data);

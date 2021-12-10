@@ -8,7 +8,7 @@ function Carrossel() {
   const [carousel, setCarousel] = useState([]);
 
   const loadCarousel = async () => {
-    const res = await axios.get('http://localhost:1337/posts');
+    const res = await axios.get('https://arte-que-salva-alma.herokuapp.com/posts');
     setCarousel(res.data);
   };
 

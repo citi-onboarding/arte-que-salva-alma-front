@@ -3,7 +3,6 @@ import { React, useEffect, useState } from "react";
 import { Description, Title, Image } from "../../components";
 import './Project-info.css';
 
-
 const ProjectInfo = (props) => {
 
 
@@ -12,7 +11,7 @@ const ProjectInfo = (props) => {
     console.log('aqui', project);
 
     useEffect(() => {
-        axios.get(`http://localhost:1337/project-infos`)
+        axios.get('https://arte-que-salva-alma.herokuapp.com/project-infos')
             .then(res => {
                 setProject(res.data);
                 console.log(res.data);
